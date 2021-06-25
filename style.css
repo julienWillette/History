@@ -378,7 +378,8 @@ i {
 }
 
 .instagram:hover {
-    color: #3b5998;
+    color: yellow, red, rebeccapurple;
+    background: linear-gradient(to top right, yellow, red, rebeccapurple);
 }
 
 .twitter:hover {

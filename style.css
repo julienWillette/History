@@ -378,7 +378,6 @@ i {
 }
 
 .instagram:hover {
-    color: yellow, red, rebeccapurple;
     background: linear-gradient(to top right, yellow, red, rebeccapurple);
 }
 
@@ -394,19 +393,54 @@ i {
 
 /* Formulaire */
 
-.form {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 form {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10% 10%;
     border: 1px solid black;
 }
 
 .span-form {
-    display: inline;
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin: 5%;
  }
+
+.form-input {
+    width: 25%;
+    height: 35px;
+}
+
+select {
+    width: 25.7%;
+    height: 40px;
+}
+
+textarea {
+    min-width: 51%;
+    max-width: 51%;
+    min-height: 135px;
+    max-height: 135px;
+}
+
+input {
+    width: 13.7%;
+    height: 20px;
+}
+
+.span-form-input {
+    display: block;
+    text-align: center;
+    justify-content: space-between;
+    margin-left: -7%;
+}
+
+.valid-form {
+    width: 51.7%;
+    height: 40px;
+    background: #460200;
+    color: #cc9328;
+    font-family: Dancing Script;
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+}

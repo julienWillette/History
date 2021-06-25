@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="Chronologie de l'histoire par Julien">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <script src="https://kit.fontawesome.com/12c728ad22.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Noto+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/12c728ad22.js" crossorigin="anonymous"></script>
         <title>History</title>
     </head>
     <body>
@@ -18,6 +19,23 @@
                     <span><li style="float:right"><a href="form.html">Inscription</a></li></span>
                     <span><li style="float:right"><a href="index.html">Chronologie</a></li></span>
                 </ul>
+                <div class="topnav">
+                    <a href="#home" class="active"><img src="img/logo-histoire-2.jpg" alt="logo" class="logo"></a>
+                    <div id="myLinks">
+                        <a href="index.html" class="link-burger">Chronologie</a>
+                        <a href="form.html" class="link-burger">Inscription</a>
+                        <hr>
+                        <a href="#Préhistoire" class="link-burger">Préhistoire</a>
+                        <a href="#Antiquité" class="link-burger">Antiquité</a>
+                        <a href="#Moyen Âge" class="link-burger">Moyen Âge</a>
+                        <a href="#Renaissance" class="link-burger">Renaissance</a>
+                        <a href="#Révolution industrielle" class="link-burger">Révolution industrielle</a>
+                        <a href="#XX ème siècle" class="link-burger">XX ème siècle</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
             </nav>
         </header>
         <section id="description-site">
@@ -37,7 +55,7 @@
         <section id="chronology">
             <h2>Chronologie</h2>
             <div class="cart">
-                <article>
+                <article id="Préhistoire">
                     <img src="https://bulletindescommunes.net/wp-content/uploads/2017/10/pr%C3%A9histoire-mus%C3%A9e.jpg" alt="Préhistoie">
                     <h4>Préhistoire</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -51,7 +69,7 @@
                 </article>
             </div>
             <div class="cart">
-                <article>
+                <article id="Antiquité">
                     <img src="https://img.lemde.fr/2019/04/15/53/0/500/249/696/348/60/0/875bc88_4S376NSwaGX_d8P5dfgCYl5c.jpg" alt="Antiquité">
                     <h4>Antiquité</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -65,7 +83,7 @@
                 </article>
             </div>
             <div class="cart">
-                <article>
+                <article id="Moyen Âge">
                     <img src="https://cdn.radiofrance.fr/s3/cruiser-production/2019/05/8eb55940-99ae-4300-baaa-d504a31f2640/1200x680_chateau_assiege.jpg.jpg" alt="Moyen Âge">
                     <h4>Moyen Âge</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -79,7 +97,7 @@
                 </article>
             </div>
             <div class="cart">
-                <article>
+                <article id="Renaissance">
                     <img src="https://images.photowall.com/products/62921/renaissance-circle.jpg?h=699&q=85" alt="Renaissance">
                     <h4>Renaissance</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -93,7 +111,7 @@
                 </article>
             </div>
             <div class="cart">
-                <article>
+                <article id="Révolution industrielle">
                     <img src="https://static.latribune.fr/full_width/558390/locomotive.jpg" alt="Révolution industrielle">
                     <h4>Révolution industrielle</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -107,7 +125,7 @@
                 </article>
             </div>
             <div class="cart">
-                <article>
+                <article id="XX ème siècle">
                     <img src="https://geo.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fgeo.2F2018.2F11.2F15.2F6225f326-42b7-4b61-b0c5-6c77479fc69a.2Ejpeg/1150x647/background-color/ffffff/quality/70/le-photographe-alain-keler-publie-son-journal-entre-intimite-et-grands-evenements-du-20eme-siecle.jpg" alt="20ème siècle">
                     <h4>XX ème siècle</h4>
                     <p>Aenean viverra enim et tristique egestas.
@@ -143,5 +161,15 @@
                 </div>
             </section>
         </footer>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myLinks");
+                if (x.style.display === "block") {
+                    x.style.display = "none";
+                } else {
+                    x.style.display = "block";
+                }
+            }
+        </script>
     </body>
 </html>

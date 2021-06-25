@@ -76,6 +76,130 @@ li a:hover {
     color: #460200;
 }
 
+@media (min-width: 1200px){
+    .topnav {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    ul {
+        display: none;
+    }
+    .logo {
+        width: 100px;
+        height: 45px;
+        margin-top: 1%;
+        margin-left: -2%;
+        border-radius: 0;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        margin: 0 11%;
+        font-size: 30px;
+    }
+
+    .link-burger:hover {
+        background: #cc9328;
+        color: #460200;
+    }
+
+    .topnav a.icon {
+        background: #460200;
+        display: block;
+        position: absolute;
+        right: -25px;
+        top: 0;
+        color: #cc9328;
+        font-size: 40px;
+    }
+
+    nav {
+        background-color: #460200;
+    }
+
+    .active {
+        background-color: #460200;
+        color: white;
+    }
+}
+
+@media (min-width: 1200px){
+    .topnav {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px){
+    ul {
+        display: none;
+    }
+    .logo {
+        width: 100px;
+        height: 45px;
+        margin-top: 1%;
+        margin-left: -2%;
+        border-radius: 0;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        margin: 0 12%;
+        font-size: 30px;
+    }
+
+    hr {
+        color: black;
+        background: black;
+    }
+
+    .link-burger:hover {
+        background: #cc9328;
+        color: #460200;
+    }
+
+    .topnav a.icon {
+        background: #460200;
+        display: block;
+        position: absolute;
+        right: -25px;
+        top: 0;
+        color: #cc9328;
+        font-size: 40px;
+    }
+
+    nav {
+        background-color: #460200;
+    }
+
+    .active {
+        background-color: #460200;
+        color: white;
+    }
+}
+
+@media (min-width: 750px) {
+
+.chrono-link {
+    display: none;
+}
+}
+
 /* Block description */
 
 #description-site {
@@ -190,13 +314,6 @@ footer {
     width: 100%;
     color: white;
     background-color: red;
-}
-
-.all-footer {
-    width: 100%;
-    height: 200px;
-    background: grey;
-    margin-top: 1565px;
 }
 
 .links-footer {

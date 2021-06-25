@@ -193,20 +193,13 @@ li a:hover {
     }
 }
 
-@media (min-width: 750px) {
-
-.chrono-link {
-    display: none;
-}
-}
-
 /* Block description */
 
 #description-site {
     min-width: 100%;
     max-width: 100%;
     min-height: 200px;
-    max-height: 500px;
+    max-height: 800px;
 }
 
 h2 {
@@ -220,6 +213,30 @@ p{
     margin: 2% 12%;
     font-size: 18px;
     font-family: 'Noto Sans', sans-serif;
+}
+
+.img-chronologie {
+    margin: 0 26%;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    height: 200px;
+}
+
+@media (max-width: 1300px) {
+    .img-chronologie {
+        margin: 0 17%;
+        width: 66%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .img-chronologie {
+        margin: 0 12%;
+        width: 76%;
+        height: 200px;
+    }
 }
 
 /* Chronologie */
@@ -284,7 +301,7 @@ button {
 
 /* Chronologie tablette */
 
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
     .cart {
         float: left;
         width: 50%;
@@ -296,7 +313,7 @@ button {
 
 /* Chronologie smartphone */
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
     .cart {
         float: left;
         width: 100%;
@@ -313,7 +330,8 @@ footer {
     bottom: 0;
     width: 100%;
     color: white;
-    background-color: red;
+    background-color: grey;
+    float: right;
 }
 
 .links-footer {
@@ -323,7 +341,7 @@ footer {
     display:flex;
     background: grey;
     align-items: center;
-    margin: 0 12%;
+    margin: 0 11%;
 }
 
 a {
@@ -336,16 +354,41 @@ a {
 h5 {
     font-family: Dancing Script;
     font-size: 30px;
-    float: left
+    float: left;
+    margin-left: 10.5%;
 }
 
 i {
     color: white;
-    font-size: 30px;
-    display: flex;
+    font-size: 35px;
     justify-content: space-between;
     margin: 12px 12px 0 0;
-    float: right;
+}
+
+.social-links {
+    margin-left: 43%;
+}
+
+.facebook:hover {
+    color: #3b5998;
+}
+
+.linkedin:hover {
+    color: #0a66c2;
+}
+
+.instagram:hover {
+    color: #3b5998;
+}
+
+.twitter:hover {
+    color: #1c9be9;
+}
+
+@media (max-width: 1350px) {
+    footer {
+        display: none;
+    }
 }
 
 /* Formulaire */

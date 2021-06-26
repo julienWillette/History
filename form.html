@@ -17,7 +17,7 @@
   <header>
     <nav>
       <ul>
-        <span><a href=""><img src="img/logo-histoire-2.jpg" alt="logo" class="logo"></a></span>
+        <span><a href="index.html"><img src="img/logo-histoire-2.jpg" alt="logo" class="logo"></a></span>
         <span><li style="float:right"><a href="form.html">Inscription</a></li></span>
         <span><li style="float:right"><a href="index.html">Chronologie</a></li></span>
       </ul>
@@ -37,16 +37,16 @@
     <section class="form">
       <form method="post" action="">
       <span class="span-form">
-        <input type="text" name="last-name" placeholder="Nom" class="form-input">
-        <input type="text" name="first-name" placeholder="Prénom" class="form-input">
+        <input type="text" name="last-name" placeholder="Nom" class="form-input" autocomplete="off">
+        <input type="text" name="first-name" placeholder="Prénom" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
-        <input type="date" name="birth date" placeholder="Born" class="form-input">
-        <input type="email" name="email" placeholder="email" class="form-input">
+        <input type="date" name="birth date" placeholder="birth" class="form-input" autocomplete="off">
+        <input type="email" name="email" placeholder="email" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
-        <input type="password" name="fname" placeholder="password" class="form-input">
-        <input type="password" name="lname" placeholder="confirme-password" class="form-input">
+        <input type="password" name="fname" placeholder="password" class="form-input" autocomplete="off">
+        <input type="password" name="lname" placeholder="confirme-password" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
           <select>
@@ -110,10 +110,10 @@
         <span class="span-form">
           <select>
              <option>Selectionner une race</option>
-             <option>Elfe</option>
-             <option>Homme</option>
-             <option>Nain</option>
-             <option>Orc</option>
+             <option value="1">Elfe</option>
+             <option value="2">Homme</option>
+             <option value="3">Nain</option>
+             <option value="4">Orc</option>
           </select>
         </span>
         <span class="span-form">
@@ -134,20 +134,18 @@
   <footer>
     <section id="footer">
       <div class="all-footer">
-                      <span class="links-footer">
-                          <a href="#"><img src="img/logo-histoire-2.jpg" alt="logo" class="logo"></a>
-
-                          <a href="#" class="link-footer">FAQ</a>
-
-                          <a href="#" class="link-footer">ressource</a>
-                      </span>
+        <span class="links-footer">
+          <a href="#"><img src="img/logo-histoire-2.jpg" alt="logo" class="logo"></a>
+          <a href="#" class="link-footer">FAQ</a>
+          <a href="#" class="link-footer">ressource</a>
+        </span>
         <div class="links-footer">
           <h5>Created by Julien Willette</h5>
           <div class ="social-links">
-            <a href="#"><i class="fab fa-facebook-square facebook"></i></a>
-            <a href="#"><i class="fab fa-linkedin linkedin"></i></a>
-            <a href="#"><i class="fab fa-instagram-square instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter-square twitter"></i></a>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square facebook"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin linkedin"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square instagram"></i></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><i class="fab fa-twitter-square twitter"></i></a>
           </div>
         </div>
       </div>

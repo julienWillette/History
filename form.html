@@ -6,6 +6,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <script src="https://kit.fontawesome.com/12c728ad22.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&family=Noto+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>inscription</title>
@@ -30,46 +33,104 @@
       </div>
     </nav>
   </header>
-  <section class="form">
-    <form method="post" action="">
+  <div class="big-form">
+    <section class="form">
+      <form method="post" action="">
       <span class="span-form">
         <input type="text" name="last-name" placeholder="Nom" class="form-input">
         <input type="text" name="first-name" placeholder="Prénom" class="form-input">
       </span>
-      <span class="span-form">
+        <span class="span-form">
         <input type="date" name="birth date" placeholder="Born" class="form-input">
         <input type="email" name="email" placeholder="email" class="form-input">
       </span>
-      <span class="span-form">
+        <span class="span-form">
         <input type="password" name="fname" placeholder="password" class="form-input">
         <input type="password" name="lname" placeholder="confirme-password" class="form-input">
       </span>
-      <span class="span-form">
+        <span class="span-form">
           <select>
+            <option>Selectionner un genre</option>
             <option>Homme</option>
             <option>Femme</option>
           </select>
           <select>
+             <option>Selectionner une race</option>
              <option>Elfe</option>
              <option>Homme</option>
              <option>Nain</option>
              <option>Orc</option>
           </select>
       </span>
-      <span class="span-form">
+        <span class="span-form">
         <textarea class="text" id="Textarea" placeholder="commentaire"></textarea>
       </span>
-      <span class="span-form-input">
-        <input class="form-check-input" type="checkbox" id="conditions">
+        <div class="span-form-input">
+          <input class="form-check-input" type="checkbox" id="conditions">
           <label class="form-check-label" for="conditions">
             Je confirme accepter les conditions générales d'utilisations
           </label>
-      </span>
-      <span class="span-form">
+        </div>
+        <span class="span-form">
         <input type="submit" value="Validé" class="valid-form">
       </span>
-    </form>
-  </section>
+      </form>
+    </section>
+  </div>
+
+
+  <div class="medium-form">
+    <section class="form">
+      <form method="post" action="">
+      <span class="span-form">
+        <input type="text" name="last-name" placeholder="Nom" class="form-input">
+      </span>
+      <span class="span-form">
+         <input type="text" name="first-name" placeholder="Prénom" class="form-input">
+      </span>
+        <span class="span-form">
+        <input type="date" name="birth date" placeholder="Born" class="form-input">
+      </span>
+        <span class="span-form">
+          <input type="email" name="email" placeholder="email" class="form-input">
+        </span>
+        <span class="span-form">
+        <input type="password" name="fname" placeholder="password" class="form-input">
+      </span>
+        <span class="span-form">
+          <input type="password" name="lname" placeholder="confirme-password" class="form-input">
+        </span>
+        <span class="span-form">
+          <select>
+            <option>Selectionner un genre</option>
+            <option>Homme</option>
+            <option>Femme</option>
+          </select>
+      </span>
+        <span class="span-form">
+          <select>
+             <option>Selectionner une race</option>
+             <option>Elfe</option>
+             <option>Homme</option>
+             <option>Nain</option>
+             <option>Orc</option>
+          </select>
+        </span>
+        <span class="span-form">
+        <textarea class="text" id="Textarea" placeholder="commentaire"></textarea>
+      </span>
+        <div class="span-form-input">
+          <input class="form-check-input" type="checkbox" id="conditions">
+          <label class="form-check-label" for="conditions">
+            Je confirme accepter les conditions générales d'utilisations
+          </label>
+        </div>
+        <span class="span-form">
+        <input type="submit" value="Validé" class="valid-form">
+      </span>
+      </form>
+    </section>
+  </div>
   <footer>
     <section id="footer">
       <div class="all-footer">

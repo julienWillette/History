@@ -1,21 +1,6 @@
 
 /* Fonts */
 
-@font-face {
-    font-family: Dancing Script;
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: Dancing Script;
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: Dancing Script;
-    font-weight: 700;
-}
-
 body {
     background: #efefef;
     margin: 0px;
@@ -393,54 +378,154 @@ i {
 
 /* Formulaire */
 
-form {
-    margin: 10% 10%;
-    border: 1px solid black;
+@media (min-width: 1350px) {
+
+    .medium-form {
+        display: none;
+    }
+
+    form {
+        margin: 10% 10%;
+        border: 1px solid #460200;
+    }
+
+    .span-form {
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        margin: 5%;
+    }
+
+    .form-input {
+        width: 25.4%;
+        height: 45px;
+        color: #460200;
+        background: #cc9328;
+        border: none;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    option {
+        color: #460200;
+        background: #cc9328;
+        border: none;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    select {
+        width: 25.7%;
+        height: 40px;
+        color: #460200;
+        background: #cc9328;
+        border: none;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    textarea {
+        min-width: 51.5%;
+        max-width: 51.5%;
+        min-height: 135px;
+        max-height: 135px;
+        color: #460200;
+        background: #cc9328;
+        border: none;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    input {
+        width: 13.7%;
+        height: 20px;
+    }
+
+    .span-form-input {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 23.5%;
+        max-width: 49.7%;
+    }
+
+    .valid-form {
+        width: 51.7%;
+        height: 40px;
+        background: #460200;
+        color: #cc9328;
+        font-family: Dancing Script;
+        font-size: 30px;
+        border: none;
+        border-radius: 4px;
+    }
 }
 
-.span-form {
-    display: block;
-    text-align: center;
-    justify-content: space-between;
-    margin: 5%;
- }
 
-.form-input {
-    width: 25%;
-    height: 35px;
-}
 
-select {
-    width: 25.7%;
-    height: 40px;
-}
+@media (max-width: 1350px) {
 
-textarea {
-    min-width: 51%;
-    max-width: 51%;
-    min-height: 135px;
-    max-height: 135px;
-}
+    .big-form {
+        display: none;
+    }
 
-input {
-    width: 13.7%;
-    height: 20px;
-}
+    form {
+        margin: 10% 10%;
+        border: 1px solid #460200;
+    }
 
-.span-form-input {
-    display: block;
-    text-align: center;
-    justify-content: space-between;
-    margin-left: -7%;
-}
+    .span-form {
+        display: block;
+        text-align: center;
+        justify-content: space-between;
+        margin: 5%;
+    }
 
-.valid-form {
-    width: 51.7%;
-    height: 40px;
-    background: #460200;
-    color: #cc9328;
-    font-family: Dancing Script;
-    font-size: 30px;
-    border: none;
-    border-radius: 4px;
+    .form-input {
+        min-width: 280px;
+        height: 45px;
+        color: #460200;
+        background: #cc9328;
+        border: none;
+    }
+
+    select {
+        min-width: 280px;
+        height: 40px;
+    }
+
+    textarea {
+        min-width: 280px;
+        max-width: 280px;
+        min-height: 135px;
+        max-height: 135px;
+    }
+
+    input {
+        width: 13.7%;
+        height: 20px;
+    }
+
+    .span-form-input {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 300px;
+        max-width: 300px;
+    }
+
+    .valid-form {
+        min-width: 280px;
+        height: 40px;
+        background: #460200;
+        color: #cc9328;
+        font-family: Dancing Script;
+        font-size: 30px;
+        border: none;
+        border-radius: 4px;
+    }
 }

@@ -41,7 +41,7 @@
         <input type="text" name="first-name" placeholder="Prénom" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
-        <input type="date" name="birth date" placeholder="birth" class="form-input" autocomplete="off">
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" autocomplete="off" placeholder="Birthdate" class="form-input">
         <input type="email" name="email" placeholder="email" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
@@ -63,7 +63,7 @@
           </select>
       </span>
         <span class="span-form">
-        <textarea class="text" id="Textarea" placeholder="commentaire"></textarea>
+        <textarea class="text" placeholder="commentaire"></textarea>
       </span>
         <div class="span-form-input">
           <input class="form-check-input" type="checkbox" id="conditions">
@@ -89,7 +89,7 @@
          <input type="text" name="first-name" placeholder="Prénom" class="form-input">
       </span>
         <span class="span-form">
-        <input type="date" name="birth date" placeholder="Born" class="form-input">
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" autocomplete="off" placeholder="Birthdate" class="form-input">
       </span>
         <span class="span-form">
           <input type="email" name="email" placeholder="email" class="form-input">
@@ -117,11 +117,11 @@
           </select>
         </span>
         <span class="span-form">
-        <textarea class="text" id="Textarea" placeholder="commentaire"></textarea>
+        <textarea class="text" placeholder="commentaire"></textarea>
       </span>
         <div class="span-form-input">
-          <input class="form-check-input" type="checkbox" id="conditions">
-          <label class="form-check-label" for="conditions">
+          <input class="form-check-input" type="checkbox" id="condition">
+          <label class="form-check-label" for="condition">
             Je confirme accepter les conditions générales d'utilisations
           </label>
         </div>

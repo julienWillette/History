@@ -180,7 +180,7 @@ li a:hover {
 
 /* Block description */
 
-#description-site {
+.description-site {
     min-width: 76%;
     max-width: 76%;
     min-height: 200px;
@@ -629,4 +629,70 @@ i {
         border-radius: 4px;
         cursor: pointer;
     }
+}
+
+/* all-history pages */
+
+.description-h-p {
+    min-width: 76%;
+    max-width: 76%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0 12%;
+}
+
+.img-h-p {
+    width: 100%;
+    height: 500px;
+}
+
+.h-p-description {
+    text-align: justify;
+    margin: 2% 0;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.link-next {
+    display: block;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    background: #460200;
+    color: #cc9328;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    height:5%;
+    cursor: pointer;
+}
+
+.link-next:hover {
+    color: #460200;
+    background: #cc9328;
+    border: 1px solid #460200;
+}
+
+.link-back {
+    display: block;
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    background: #460200;
+    color: #cc9328;
+    border: none;
+    border-radius: 4px;
+    width: 15%;
+    height:5%;
+    cursor: pointer;
+}
+
+.link-back:hover {
+    color: #460200;
+    background: #cc9328;
+    border: 1px solid #460200;
 }

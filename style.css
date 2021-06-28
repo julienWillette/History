@@ -673,46 +673,104 @@ i {
     font-family: 'Noto Sans', sans-serif;
 }
 
-.link-next {
-    display: block;
-    text-align: center;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 26px;
-    background: #460200;
-    color: #cc9328;
-    border: none;
-    border-radius: 4px;
-    width: 15%;
-    height:5%;
-    cursor: pointer;
+@media (min-width: 1350px) {
+
+    .tablette-button {
+        display: none;
+    }
+
+    .link-next {
+        display: block;
+        text-align: center;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        background: #460200;
+        color: #cc9328;
+        border: none;
+        border-radius: 4px;
+        width: 15%;
+        height:5%;
+        cursor: pointer;
+    }
+
+    .link-next:hover {
+        color: #460200;
+        background: #cc9328;
+        border: 1px solid #460200;
+    }
+
+    .link-back {
+        display: block;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        background: #460200;
+        color: #cc9328;
+        border: none;
+        border-radius: 4px;
+        width: 15%;
+        height:5%;
+        cursor: pointer;
+    }
+
+    .link-back:hover {
+        color: #460200;
+        background: #cc9328;
+        border: 1px solid #460200;
+    }
 }
 
-.link-next:hover {
-    color: #460200;
-    background: #cc9328;
-    border: 1px solid #460200;
-}
+@media (max-width: 1350px) {
 
-.link-back {
-    display: block;
-    text-align: center;
-    float: left;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 26px;
-    background: #460200;
-    color: #cc9328;
-    border: none;
-    border-radius: 4px;
-    width: 15%;
-    height:5%;
-    cursor: pointer;
-}
+    .web-button {
+        display: none;
+    }
 
-.link-back:hover {
-    color: #460200;
-    background: #cc9328;
-    border: 1px solid #460200;
+    .link-next {
+        display: block;
+        text-align: center;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        background: #460200;
+        color: #cc9328;
+        border: none;
+        border-radius: 4px;
+        width: 15%;
+        height:5%;
+        cursor: pointer;
+    }
+
+    .link-next:hover {
+        color: #460200;
+        background: #cc9328;
+        border: 1px solid #460200;
+    }
+
+    .link-back {
+        display: block;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 26px;
+        background: #460200;
+        color: #cc9328;
+        border: none;
+        border-radius: 4px;
+        width: 15%;
+        height:5%;
+        cursor: pointer;
+    }
+
+    .link-back:hover {
+        color: #460200;
+        background: #cc9328;
+        border: 1px solid #460200;
+    }
 }

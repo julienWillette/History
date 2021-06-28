@@ -69,6 +69,7 @@ li a:hover {
 }
 
 @media (max-width: 1200px){
+
     ul {
         display: none;
     }
@@ -87,62 +88,6 @@ li a:hover {
         color: white;
         padding: 14px 16px;
         text-decoration: none;
-        display: block;
-        margin: 0 11%;
-        font-size: 30px;
-    }
-
-    .link-burger:hover {
-        background: #cc9328;
-        color: #460200;
-    }
-
-    .topnav a.icon {
-        background: #460200;
-        display: block;
-        position: absolute;
-        right: -25px;
-        top: 0;
-        color: #cc9328;
-        font-size: 40px;
-    }
-
-    nav {
-        background-color: #460200;
-    }
-
-    .active {
-        background-color: #460200;
-        color: white;
-    }
-}
-
-@media (min-width: 1200px){
-    .topnav {
-        display: none;
-    }
-}
-
-@media (max-width: 1200px){
-    ul {
-        display: none;
-    }
-    .logo {
-        width: 100px;
-        height: 45px;
-        margin-top: 1%;
-        margin-left: -2%;
-        border-radius: 0;
-    }
-    .topnav #myLinks {
-        display: none;
-    }
-
-    .topnav a {
-        color: white;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
         display: block;
         margin: 0 12%;
         font-size: 30px;
@@ -159,12 +104,10 @@ li a:hover {
     }
 
     .topnav a.icon {
-        background: #460200;
         display: block;
         position: absolute;
         right: -25px;
-        top: 0;
-        color: #cc9328;
+        top: 1%;
         font-size: 40px;
     }
 
@@ -447,7 +390,7 @@ i {
 
     select {
         width: 25.7%;
-        height: 40px;
+        height: 50px;
         color: #460200;
         background: #cc9328;
         border: none;
@@ -457,12 +400,9 @@ i {
     }
 
     select:hover {
-        width: 25.7%;
-        height: 40px;
+
         background: #460200;
         color: #cc9328;
-        border: none;
-        font-size: 20px;
         font-family: 'Open Sans', sans-serif;
         cursor: pointer;
     }
@@ -657,6 +597,15 @@ i {
 .img-h-p {
     width: 100%;
     height: 500px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3%;
+    font-size: 34px;
+    color: #460200;
+    background: #cc9328;
 }
 
 .h-p-description {

@@ -331,12 +331,11 @@ footer {
 
 .links-footer {
     float: left;
-    width: 76.5%;
+    width: 100%;
     height: 100px;
     display:flex;
     background: grey;
     align-items: center;
-    margin: 0 11%;
 
 }
 
@@ -359,18 +358,31 @@ h5 {
     font-family: Dancing Script;
     font-size: 30px;
     float: left;
-    margin-left: 10.5%;
+    margin-left: 18.5%;
 }
 
-i {
-    color: white;
-    font-size: 35px;
-    justify-content: space-between;
-    margin: 12px 12px 0 0;
+.div-footer-1 {
+    width: 78%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.div-footer-2 {
+    width: 22%;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .social-links {
-    margin-left: 43%;
+    float: right;
+    justify-content: space-between;
+    position: absolute;
+}
+
+i {
+    font-size: 35px;
 }
 
 .facebook:hover {

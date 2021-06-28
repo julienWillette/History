@@ -41,25 +41,33 @@
         <input type="text" name="first-name" placeholder="Prénom" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
-        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" autocomplete="off" placeholder="Birthdate" class="form-input">
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="Birthdate" autocomplete="off" placeholder="Birthdate" class="form-input">
         <input type="email" name="email" placeholder="email" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
-        <input type="password" name="fname" placeholder="password" class="form-input" autocomplete="off">
-        <input type="password" name="lname" placeholder="confirme-password" class="form-input" autocomplete="off">
+        <input type="password" name="password" placeholder="password" class="form-input" autocomplete="off">
+        <input type="password" name="confirme-password" placeholder="confirme-password" class="form-input" autocomplete="off">
       </span>
         <span class="span-form">
           <select>
-            <option>Selectionner un genre</option>
+            <option selected>Selectionner un genre</option>
             <option>Homme</option>
             <option>Femme</option>
           </select>
-          <select>
-             <option>Selectionner une race</option>
-             <option>Elfe</option>
-             <option>Homme</option>
-             <option>Nain</option>
-             <option>Orc</option>
+          <select name="race" aria-multiselectable="true">
+            <option selected>Selectionner une race</option>
+            <optgroup label="Selectionner une race">
+             <option value="1">Elfe</option>
+             <option value="2">Homme</option>
+             <option value="3">Nain</option>
+             <option value="4">Orc</option>
+            </optgroup>
+            <optgroup label="deuxième-race">
+             <option value="1">Elfe</option>
+             <option value="2">Homme</option>
+             <option value="3">Nain</option>
+             <option value="4">Orc</option>
+            </optgroup>
           </select>
       </span>
         <span class="span-form">
@@ -89,31 +97,39 @@
          <input type="text" name="first-name" placeholder="Prénom" class="form-input">
       </span>
         <span class="span-form">
-        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" autocomplete="off" placeholder="Birthdate" class="form-input">
+        <input type="text" onfocus="(this.type='date')" onblur="(this.type='text')" autocomplete="off" name="Birthdate" placeholder="Birthdate" class="form-input">
       </span>
         <span class="span-form">
           <input type="email" name="email" placeholder="email" class="form-input">
         </span>
         <span class="span-form">
-        <input type="password" name="fname" placeholder="password" class="form-input">
+        <input type="password" name="password" placeholder="password" class="form-input">
       </span>
         <span class="span-form">
-          <input type="password" name="lname" placeholder="confirme-password" class="form-input">
+          <input type="password" name="confirme-password" placeholder="confirme-password" class="form-input">
         </span>
         <span class="span-form">
-          <select>
-            <option>Selectionner un genre</option>
+          <select name="sexe">
+            <option selected>Selectionner un genre</option>
             <option>Homme</option>
             <option>Femme</option>
           </select>
       </span>
         <span class="span-form">
-          <select>
-             <option>Selectionner une race</option>
+          <select name="race" aria-multiselectable="true">
+            <option selected>Selectionner une race</option>
+            <optgroup label="Selectionner une race">
              <option value="1">Elfe</option>
              <option value="2">Homme</option>
              <option value="3">Nain</option>
              <option value="4">Orc</option>
+            </optgroup>
+            <optgroup label="deuxième-race">
+             <option value="1">Elfe</option>
+             <option value="2">Homme</option>
+             <option value="3">Nain</option>
+             <option value="4">Orc</option>
+            </optgroup>
           </select>
         </span>
         <span class="span-form">

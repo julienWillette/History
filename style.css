@@ -80,6 +80,7 @@ li a:hover {
         margin-left: -2%;
         border-radius: 0;
     }
+
     .topnav #myLinks {
         display: none;
     }
@@ -106,7 +107,7 @@ li a:hover {
     .topnav a.icon {
         display: block;
         position: absolute;
-        right: -25px;
+        right: -17px;
         top: 1%;
         font-size: 40px;
     }
@@ -359,7 +360,7 @@ i {
     }
 
     form {
-        margin: 10% 10%;
+        margin: 10% 12%;
         border: 1px solid #460200;
     }
 
@@ -486,7 +487,7 @@ i {
     }
 
     form {
-        margin: 10% 10%;
+        margin: 10% 12%;
         border: 1px solid #460200;
     }
 

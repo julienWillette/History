@@ -344,7 +344,7 @@ i {
     color: #1c9be9;
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
     footer {
         display: none;
     }
@@ -352,7 +352,7 @@ i {
 
 /* Formulaire */
 
-@media (min-width: 1350px) {
+@media (min-width: 1200px) {
 
     .medium-form {
         display: none;
@@ -479,7 +479,7 @@ i {
         cursor: pointer;
     }
 }
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
 
     .big-form {
         display: none;
@@ -637,7 +637,7 @@ h3 {
     font-family: 'Noto Sans', sans-serif;
 }
 
-@media (min-width: 1350px) {
+@media (min-width: 1200px) {
 
     .tablette-button {
         display: none;
@@ -688,7 +688,7 @@ h3 {
     }
 }
 
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
 
     .web-button {
         display: none;

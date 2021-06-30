@@ -494,6 +494,7 @@ i {
         margin-right: auto;
         margin-left: auto;
         height: 310px;
+        text-align: center;
     }
 }
 @media (max-width: 1200px) {

@@ -23,7 +23,28 @@ a, a:hover, a:focus{
 .sidebar {
     width: 20%;
     border: 1px solid black;
-    background-color: #460200;
+    background-color: #cc9328;
+}
+
+ul div {
+    margin-top: 20%;
+}
+
+.sidebar ul li {
+    margin-bottom: 15%;
+    list-style-type: none;
+}
+.sidebar ul li:hover {
+    margin-bottom: 15%;
+    background: #460200;
+}
+
+.sidebar ul li a {
+    color: #460200;
+}
+
+.sidebar ul li a:hover {
+    color: #cc9328;
 }
 
 .page {

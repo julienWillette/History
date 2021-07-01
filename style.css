@@ -7,51 +7,59 @@ body {
 }
 
 a, a:hover, a:focus{
-    text-display: none;
     color: white;
     text-decoration: none;
     font-family: Dancing Script;
 }
 
-.all-page{
-    width: 100%;
-    display: flex;
-    float: left;
-    height: 100%;
+/* sidebar */
+
+@media(min-width: 1200px) {
+
+    .all-page{
+        width: 100%;
+        display: flex;
+        float: left;
+        height: 100%;
+    }
+
+    .page {
+        width: 85%;
+        height: 100%;
+        float: right;
+    }
+    
+    .sidebar {
+        width: 15%;
+        border: 1px solid black;
+        background-color: #cc9328;
+    }
+    
+    .sidebar div {
+        margin-top: 20%;
+    }
+    
+    .sidebar a {
+        margin-bottom: 15%;
+        list-style-type: none;
+        color: #460200;
+        display: block;
+        padding-left: 5%;
+        font-size: 25px;
+    }
+
+    .sidebar a:hover {
+        margin-bottom: 15%;
+        color: #cc9328;
+        background-color: #460200;
+    }
+
+    h6 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
 }
 
-.sidebar {
-    width: 20%;
-    border: 1px solid black;
-    background-color: #cc9328;
-}
-
-ul div {
-    margin-top: 20%;
-}
-
-.sidebar ul li {
-    margin-bottom: 15%;
-    list-style-type: none;
-}
-.sidebar ul li:hover {
-    margin-bottom: 15%;
-    background: #460200;
-}
-
-.sidebar ul li a {
-    color: #460200;
-}
-
-.sidebar ul li a:hover {
-    color: #cc9328;
-}
-
-.page {
-    width: 80%;
-    height: 100%;
-    float: right;
-}
 
 /* Navbar */
 

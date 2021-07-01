@@ -31,7 +31,6 @@ a, a:hover, a:focus{
     
     .sidebar {
         width: 15%;
-        border: 1px solid black;
         background-color: #cc9328;
     }
     
@@ -251,7 +250,7 @@ article {
     align-items: center;
     background: #cc9328;
     color: #460200;
-    min-height: 955px;
+    min-height: 1043px;
     max-height: 100%;
 }
 

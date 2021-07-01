@@ -13,6 +13,25 @@ a, a:hover, a:focus{
     font-family: Dancing Script;
 }
 
+.all-page{
+    width: 100%;
+    display: flex;
+    float: left;
+    height: 100%;
+}
+
+.sidebar {
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.page {
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
 /* Navbar */
 
 header {
